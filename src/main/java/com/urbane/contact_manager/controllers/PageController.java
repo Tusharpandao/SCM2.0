@@ -9,9 +9,9 @@ public class PageController {
 
     @RequestMapping("/home")
     public String home(Model model) {
-        System.out.println("Home Page handler");
+        System.out.println("home page Controller");
         model.addAttribute("name", "Substring technologies");
-        model.addAttribute("Youtube Channel", "learn with tushar");
+        model.addAttribute("Youtube_Channel", "learn with tushar");
         return "home";
     }
 
